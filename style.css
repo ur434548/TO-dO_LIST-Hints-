@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: cadetblue;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  height:max-content;
+  width: 500px;
+  padding: 30px;
+  margin-top: 150px;
+  background-color: white;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  
+}
+.task-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  margin: 5px 0px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input {
+  padding: 4px;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+button {
+  padding: 4px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  background-color: rgb(32, 32, 201);
+  color: white;
+  cursor: pointer;
+  font-family: montserrat;
+  font-weight: 600;
+  height: 40px;
+}
+table {
+  width: 100%;
+
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}

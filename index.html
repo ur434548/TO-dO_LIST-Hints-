@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do-list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="task-input">
+        <h1>To-Do -List</h1>
+        <input
+          type="text"
+          id="nme"
+          autocomplete="off"
+          placeholder="Enter Your Name"
+          required
+        />
+        <input
+          type="number"
+          id="cnic"
+          autocomplete="off"
+          placeholder="Enter Your Cnic"
+          required
+        />
+        <input
+          type="email"
+          id="email"
+          autocomplete="off"
+          placeholder="Enter Your Email"
+          required
+        />
+        <input
+          type="number"
+          id="phn"
+          autocomplete="off"
+          placeholder="Enter Your Phn No"
+          required
+        />
+        <br />
+        <button value="Add Task" id="btn">Add Task</button>
+      </div>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>CNIC</th>
+              <th>Email</th>
+              <th>Phone Number</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="bdata"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
